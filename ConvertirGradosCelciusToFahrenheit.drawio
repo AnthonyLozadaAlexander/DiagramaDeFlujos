@@ -68,7 +68,7 @@
                     <mxGeometry x="350" y="760" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="Si los celcius ingresados es menor a 0, este volvera a pedir que se ingrese el valor de celcius dado que es necesario para salir del bucle y se ejecute con normalidad el algoritmo" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="200" width="170" height="200" as="geometry"/>
+                    <mxGeometry x="580" y="200" width="230" height="200" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
