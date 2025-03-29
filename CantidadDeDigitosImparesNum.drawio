@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="twcgLKXJ450pwhEVC-Jm" name="Page-1">
-        <mxGraphModel dx="1549" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2399" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -118,13 +118,22 @@
                 <mxCell id="33" value="Not/False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="250" y="380" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="Esto se repetiria hasta que se ingrese un num &amp;lt; 0 y cerrara el while" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="34" value="Esto se repetiria hasta que el digito sea menor o igual a 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="110" y="280" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="240" y="320" as="sourcePoint"/>
                         <mxPoint x="360" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Mostrara la cantidad de impares que tuvo una cantidad de digitos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="510" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="520" as="sourcePoint"/>
+                        <mxPoint x="170" y="520" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
