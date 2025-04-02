@@ -25,13 +25,16 @@
                 <mxCell id="5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&quot;Digite dos numeros: &quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" vertex="1" parent="1">
                     <mxGeometry x="70" y="240" width="180" height="100" as="geometry"/>
                 </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="9" value="num1, num2" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="90" y="360" width="140" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="11">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="operaciones(num1, num2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="operaciones(num1, num2)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="560" y="50" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="13">
@@ -40,8 +43,37 @@
                 <mxCell id="11" value="suma = 0,&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;resta = 0,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;div = 0,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;mult = 0,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;resto = 0&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="480" y="130" width="330" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="suma = num1 + num2;&lt;div&gt;resta = num1 - num2;&lt;/div&gt;&lt;div&gt;mult = num1 * num2;&lt;/div&gt;&lt;div&gt;div = num1 / num2;&lt;/div&gt;&lt;div&gt;resto = num1 % num2;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="540" y="230" width="210" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.498;exitY=0.857;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&quot;La suma es: &quot;, suma;&lt;div&gt;&quot;La resta es: &quot;, resta;&lt;/div&gt;&lt;div&gt;&quot;La multiplicacion es: &quot;, mult;&lt;/div&gt;&lt;div&gt;&quot;La division es: &quot;, div;&lt;/div&gt;&lt;div&gt;&quot;El resto es: &quot;, resto;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="430" width="210" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="600" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.497;exitY=0.884;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="609.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&quot;Resultados Arimeticos: &quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="500" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="operaciones(num1, num2);" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="610" width="270" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="690" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
