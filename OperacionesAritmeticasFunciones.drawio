@@ -28,7 +28,7 @@
                 <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="21">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="num1, num2" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;num1, num2" style="shape=manualInput;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
                     <mxGeometry x="90" y="360" width="140" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="11">
