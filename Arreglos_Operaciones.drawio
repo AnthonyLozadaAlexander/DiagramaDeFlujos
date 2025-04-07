@@ -1,0 +1,27 @@
+<mxfile host="65bd71144e">
+    <diagram id="uDLt_m6npkLKiQZYzqOx" name="Page-1">
+        <mxGraphModel dx="542" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="110" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="int [ ] arreglo = new int[5];&lt;div&gt;suma = 0;&lt;/div&gt;&lt;div&gt;resta = 0;&lt;/div&gt;&lt;div&gt;multiplicacion = 1;&lt;/div&gt;&lt;div&gt;division = 1;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontColor=#1A1A1A;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="200" width="260" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=0.546;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="419.71" y="290" as="sourcePoint"/>
+                        <mxPoint x="419.71" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
