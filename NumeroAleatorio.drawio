@@ -16,7 +16,7 @@
                 <mxCell id="5" value="jugar()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="620" y="40" width="220" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="int numero = 0, intento = 0, x = 0;&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="10" value="int numero = 0, intento = 0, x = 0&lt;div&gt;valor = 0;&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="590" y="130" width="280" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="" style="edgeStyle=none;html=1;exitX=0.502;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12" target="18">
@@ -43,8 +43,17 @@
                 <mxCell id="20" value="intento = intento + 1;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="660" y="420" width="140" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-                    <mxGeometry x="680" y="560" width="100" height="60" as="geometry"/>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="valor" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="540" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.484;entryY=0.169;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="20" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="valor = numero;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="660" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
