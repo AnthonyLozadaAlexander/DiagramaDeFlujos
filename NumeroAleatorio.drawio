@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="u1VLZLcf8KAzm1ALvAkV" name="Page-1">
+        <mxGraphModel dx="786" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="30" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="120" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="jugar()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="40" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="int numero = 0, intento = 0, x = 0;&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="130" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;exitX=0.502;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&quot;Digite un numero: &quot;;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="220" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="729.76" y="100" as="sourcePoint"/>
+                        <mxPoint x="729.76" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="x = 0;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="350" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="intento = intento + 1;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="420" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="560" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
