@@ -1,27 +1,27 @@
 <mxfile host="65bd71144e">
     <diagram id="AmnvhtA0iGMQnOEvT6FH" name="Page-1">
-        <mxGraphModel dx="1123" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+        <mxGraphModel dx="2485" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="360" y="30" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="int [ ] arreglo = new int[100];&lt;br&gt;&lt;div&gt;int i = 0;&lt;/div&gt;&lt;div&gt;int suma = 0;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="3" value="int [ ] arreglo = new int[100];&lt;br&gt;&lt;div&gt;int i = 0;&lt;/div&gt;&lt;div&gt;int suma = 0;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="230" y="120" width="340" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.532;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3">
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.532;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="411" y="90" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.532;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.532;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="409.83" y="180" as="sourcePoint"/>
                         <mxPoint x="409.83" y="209" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="18">
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="7" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="980" y="230" as="targetPoint"/>
                         <Array as="points">
@@ -29,10 +29,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="for(int x = 0; x &amp;lt; 101; x++)&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="7" value="for(int x = 0; x &amp;lt; 101; x++)&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="280" y="210" width="260" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="11">
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="8" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="630" y="315" as="targetPoint"/>
                         <Array as="points">
@@ -40,7 +40,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8">
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="410" y="510" as="targetPoint"/>
                         <mxPoint x="329.9999999999999" y="340" as="sourcePoint"/>
@@ -51,13 +51,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="x % 2 == 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="8" value="x % 2 == 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="330" y="280" width="160" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="8">
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" source="7" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11">
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="409.9999999999999" y="510" as="targetPoint"/>
                         <Array as="points">
@@ -67,10 +67,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="arreglo[i] = x;&lt;div&gt;i++;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="11" value="arreglo[i] = x;&lt;div&gt;i++;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="510" y="360" width="180" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="7">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="15" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="190" y="540"/>
@@ -78,24 +78,24 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="next" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="15" value="next" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="360" y="510" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18">
+                <mxCell id="21" style="edgeStyle=none;html=1;fontSize=14;" parent="1" source="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="for(int z = 0; z &amp;lt; i-1; z++)&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="18" value="for(int z = 0; z &amp;lt; i-1; z++)&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="810" y="280" width="260" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="23">
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontSize=14;" parent="1" source="22" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="suma = suma + i;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="22" value="suma = suma + i;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="850" y="350" width="180" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="23" target="18">
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="23" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="750" y="500"/>
@@ -103,23 +103,23 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="next" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="23" value="next" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="890" y="470" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="&quot;La suma es: &quot; + suma;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+                <mxCell id="26" value="&quot;La suma es: &quot; + suma;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="1120" y="350" width="170" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="18" target="26">
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="18" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1205" y="300"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="28" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="1155" y="470" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="28">
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="1" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1205" y="430" as="sourcePoint"/>
                     </mxGeometry>
